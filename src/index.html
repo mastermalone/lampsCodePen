@@ -3,10 +3,47 @@
 <html>
   <head>
     <title>Lamps Plus Code Pen</title>
+    <link href="./css/index.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <div>
-      Content will go here
+      <div class="main">
+        <div class="tool-tip">
+          <span><strong>$167</strong> still needed for this project</span>
+          <span class="karet"></span>
+        </div>
+        <div class="progress-wrapper">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="main-content">
+          <p></p>
+          <h1 class="heading">
+            <span class="accent-bold-orange">Only 3 days left</span> to fund
+            this project
+          </h1>
+          <p>
+            Join the <strong>42</strong> other donors who have already supported
+            this project. Every dollar helps.
+          </p>
+          <form>
+            <span class="primary-button donation-wrapper left">
+              <span>$</span>
+              <input type="text" value="50" id="donation-amount" size="2" />
+            </span>
+            <input
+              class="primary-button btn-green right"
+              type="button"
+              value="Give Now"
+              id="donate"
+            />
+          </form>
+          <p class="accent-italic-blue">Why give $50?</p>
+        </div>
+        <div class="cta-group">
+          <button>Save for Later</button>
+          <button>Tell your friends</button>
+        </div>
+      </div>
     </div>
     <script type="module" src="js/index.js"></script>
   </body>

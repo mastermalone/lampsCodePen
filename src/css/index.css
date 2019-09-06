@@ -1,0 +1,113 @@
+/* Global resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
+}
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+.main {
+  width: 325px;
+  margin: 20px auto;
+  font-size: 12px;
+  color: #777;
+}
+
+.tool-tip {
+  border-radius: 3px;
+  background: #777;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.tool-tip .karet {
+  position: absolute;
+  right: 10%;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 6px 0 6px;
+  border-color: #777 transparent transparent transparent;
+}
+
+.progress-wrapper {
+  width: 100%;
+  border: solid 1px #eaeaea;
+}
+
+.progress-wrapper .progress-bar {
+  padding: 6px;
+  background: #ef5f3c;
+  width: 72%;
+}
+
+.main .main-content {
+  padding: 20px;
+  border: solid 1px #eaeaea;
+  border-top: none;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 3px #eaeaea;
+}
+
+.main .main-content p {
+  margin-bottom: 15px;
+}
+
+.main .main-content .heading {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.main .main-content form {
+  overflow: hidden;
+}
+
+.accent-bold-orange {
+  font-weight: bold;
+  color: #ef5f3c;
+}
+
+.primary-button {
+  border: solid 1px #eaeaea;
+  padding: 15px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  width: 120px;
+}
+.primary-button input {
+  border: none;
+}
+
+.primary-button,
+.primary-button input {
+  font-size: 16px;
+  font-weight: bold;
+}
+.primary-button input[type='button'] {
+  cursor: pointer;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
