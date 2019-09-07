@@ -55,7 +55,7 @@ body {
 .progress-wrapper .progress-bar {
   padding: 6px;
   background: #ef5f3c;
-  width: 72%;
+  width: 75%;
 }
 
 .main .main-content {
@@ -88,7 +88,7 @@ body {
 
 .main .cta-group button {
   border: solid 1px #eaeaea;
-  padding: 10px 20px;
+  padding: 12px 20px;
   float: left;
   color: #424242;
   font-weight: bold;
@@ -108,7 +108,7 @@ body {
 
 .accent-italic-blue {
   font-style: italic;
-  color: #20A1D4;
+  color: #20a1d4;
 }
 
 .primary-button {
@@ -121,9 +121,16 @@ body {
 
 .primary-button.btn-green {
   color: #fff;
-  border-color: #1CBC2C;
-  background: #1CBC2C;
+  border-color: #1cbc2c;
+  background: #1cbc2c;
 }
+
+.primary-button.btn-green:disabled {
+  color: #424242;
+  background: #e1e1e1;
+  border: #424242;
+}
+
 .primary-button input {
   border: none;
 }
@@ -132,6 +139,7 @@ body {
 .primary-button input {
   font-size: 16px;
   font-weight: bold;
+  line-height: normal;
 }
 .primary-button input[type='button'] {
   cursor: pointer;
@@ -143,4 +151,9 @@ body {
 
 .right {
   float: right;
+}
+
+.error-text {
+  color: #ff0000;
+  clear: both;
 }

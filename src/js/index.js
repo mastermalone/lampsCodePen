@@ -4,6 +4,7 @@ import stringCaseService from './stringCaseService.js';
 import getFirstCharacter from './getFirstCharacterService.js';
 import getWordsService from './getWordsService.js';
 import characterCountService from './characterCountService.js';
+import { submitDonation, onInput } from './submitDonation.js';
 
 const init = () => {
   const wordArray = stringToArrayService.convert(STRING);
@@ -27,4 +28,12 @@ const init = () => {
   console.log('Character count for', HELLO, characterCount);
 };
 
+const initForm = () => {
+  let donatBtn = document.querySelector('#donate');
+  let donationInput = document.querySelector('#donation-amount');
+  donatBtn.addEventListener('click', submitDonation, true);
+  donationInput.addEventListener('input', onInput, true);
+};
+
+initForm();
 init();

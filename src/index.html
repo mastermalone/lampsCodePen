@@ -25,23 +25,26 @@
             Join the <strong>42</strong> other donors who have already supported
             this project. Every dollar helps.
           </p>
-          <form>
+          <form id="donation-form">
             <span class="primary-button donation-wrapper left">
               <span>$</span>
               <input
                 type="text"
                 value="50"
                 id="donation-amount"
-                size="2"
-                maxlength="2"
+                name="donationAmount"
+                size="4"
+                maxlength="4"
               />
             </span>
-            <input
+            <button
               class="primary-button btn-green right"
-              type="button"
-              value="Give Now"
               id="donate"
-            />
+              name="donationBtn"
+            >
+              Give Now
+            </button>
+            <div class="error-text error"></div>
           </form>
           <p class="accent-italic-blue">Why give $50?</p>
         </div>
@@ -52,5 +55,10 @@
       </div>
     </div>
     <script type="module" src="js/index.js"></script>
+    <script>
+      const myFunction = e => {
+        console.log('WTF');
+      };
+    </script>
   </body>
 </html>
