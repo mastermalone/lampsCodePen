@@ -29,9 +29,9 @@ const init = () => {
 };
 
 const initForm = () => {
-  let donatBtn = document.querySelector('#donate');
+  let donateBtn = document.querySelector('#donate');
   let donationInput = document.querySelector('#donation-amount');
-  donatBtn.addEventListener('click', submitDonation, true);
+  donateBtn.addEventListener('click', submitDonation, true);
   donationInput.addEventListener('input', onInput, true);
 };
 
