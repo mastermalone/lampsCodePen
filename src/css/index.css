@@ -19,9 +19,9 @@ body {
 */
 
 .main {
-  width: 325px;
+  width: 300px;
   margin: 20px auto;
-  font-size: 12px;
+  font-size: 14px;
   color: #777;
 }
 
@@ -33,16 +33,17 @@ body {
   padding: 15px 20px;
   position: relative;
   margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .tool-tip .karet {
   position: absolute;
   right: 10%;
-  bottom: -10px;
+  bottom: -8px;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 10px 6px 0 6px;
+  border-width: 8px 6px 0 6px;
   border-color: #777 transparent transparent transparent;
 }
 
@@ -70,18 +71,44 @@ body {
 }
 
 .main .main-content .heading {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   margin-bottom: 20px;
 }
 
 .main .main-content form {
   overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.main .cta-group {
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.main .cta-group button {
+  border: solid 1px #eaeaea;
+  padding: 10px 20px;
+  float: left;
+  color: #424242;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px #eaeaea;
+  background: #fefefe;
+  cursor: pointer;
+}
+
+.main .cta-group button:last-child {
+  float: right;
 }
 
 .accent-bold-orange {
   font-weight: bold;
   color: #ef5f3c;
+}
+
+.accent-italic-blue {
+  font-style: italic;
+  color: #20A1D4;
 }
 
 .primary-button {
@@ -90,6 +117,12 @@ body {
   display: inline-block;
   border-radius: 5px;
   width: 120px;
+}
+
+.primary-button.btn-green {
+  color: #fff;
+  border-color: #1CBC2C;
+  background: #1CBC2C;
 }
 .primary-button input {
   border: none;
