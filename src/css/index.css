@@ -93,6 +93,7 @@ body {
   color: #424242;
   font-weight: bold;
   box-shadow: 0px 0px 5px #eaeaea;
+  border-radius: 5px;
   background: #fefefe;
   cursor: pointer;
 }
@@ -123,6 +124,7 @@ body {
   color: #fff;
   border-color: #1cbc2c;
   background: #1cbc2c;
+  cursor: pointer;
 }
 
 .primary-button.btn-green:disabled {
