@@ -81,6 +81,10 @@ body {
   margin-bottom: 10px;
 }
 
+.main .main-content p:last-child {
+  margin: 0;
+}
+
 .main .cta-group {
   overflow: hidden;
   padding-bottom: 5px;
